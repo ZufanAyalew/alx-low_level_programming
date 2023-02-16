@@ -1,0 +1,12 @@
+#incude <stdio.h>
+
+
+/**
+* main Entry point 
+*
+* Retutrn: Always 0 (Success)
+*/
+int main(void)
+{
+    return (0);
+}
