@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the sum of even fibonacci numbers
+ * main - Prints the sum of Even Fibonacci numbers
  * less than 4000000.
  * Return: Nothing!
  */
@@ -15,7 +15,7 @@ int main(void)
 	while (k + j < 4000000)
 	{
 	k += j;
-	if (k %2 == 0)
+	if (k % 2 == 0)
 		sum += k;
 	j = k - j;
 	++i;
