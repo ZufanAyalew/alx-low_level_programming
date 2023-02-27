@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * main - check the code
@@ -7,6 +7,7 @@
  */
 
 int main(void)
+
 {
 	print_triangle(2);
 	print_triangle(10);
