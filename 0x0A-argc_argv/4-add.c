@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * main - Print the sum of args positive numbers
+ * main - Prints the sum of args positive numbers
  * @argc: argument count
  * @argv: argument vector
  *
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 			{
 				if (e[k] < 48 || e[k] > 57)
 				{
-					printf("Error/n");
+					printf("Error\n");
 					return (1);
 				}
 			}
